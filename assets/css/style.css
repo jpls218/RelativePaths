@@ -33,9 +33,10 @@ ul {
     list-style-type: none;
 }
 
+/*Formatting for all three links in the header*/
 li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px;    
 }
 
 a {
@@ -43,10 +44,12 @@ a {
     text-decoration: none;
 }
 
+/*Formatting for all of the text inside p tags*/
 p {
     font-size: 16px;
 }
 
+/*Formatting for the large image under the header*/
 figure {
     height: 800px;
     width: 100%;
@@ -108,18 +111,28 @@ figcaption {
     color: #ffffff;
 }
 
-#images {
+/* The following three areas of code are formatting for the pics in the blue sections
+and allow the header links to take the user to the corresponding section.*/
+
+#search-engine-optimization {
     max-height: 200px;
 }
 
-/* .social-media-marketing img, .online-reputation-management img, .search-engine-optimization img {
+#online-reputation-management {
     max-height: 200px;
-} */
+}
 
+#social-media-marketing {
+    max-height: 200px;
+}
+
+/* Formatting for the text in the h2 tags*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Formatting for the text in the footer tags*/
 
 footer {
     padding: 30px;
@@ -128,6 +141,7 @@ footer {
     text-align: center;
 }
 
+/* Formatting for the text in the h2 tag that is also in the footer tag*/
 h2.footer {
     font-size: 20px;
 }
